@@ -1,6 +1,6 @@
 {
   "name": "gavin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "compile.js",
   "scripts": {
     "compile": "node compile.js",
