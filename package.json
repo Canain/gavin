@@ -1,7 +1,6 @@
 {
   "name": "gavin",
   "version": "1.0.0",
-  "description": "",
   "main": "compile.js",
   "scripts": {
     "compile": "node compile.js",
@@ -16,5 +15,15 @@
   "dependencies": {
     "lzma-purejs": "^0.9.3",
     "uglify-js": "^2.6.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Canain/gavin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Canain/gavin/issues"
+  },
+  "homepage": "https://github.com/Canain/gavin#readme",
+  "description": ""
 }
