@@ -16,7 +16,7 @@ const data = new Buffer(script, 'utf8');
 
 const compressed = lzmajs.compressFile(data);
 
-const base64 = new Buffer(compressed).toString('base64');
+const base64 = new Buffer(compressed).toString('base64').split('=').join('');
 
 let out = '';
 for (let i = 0; i < base64.length; i++) {
