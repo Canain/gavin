@@ -1,0 +1,20 @@
+{
+  "name": "gavin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "exec": "node exec.js"
+  },
+  "author": "Shuyang Chen <sc1085@gmail.com>",
+  "bin": {
+    "gavinc": "compile.js",
+    "gavin": "exec.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lzma-purejs": "^0.9.3",
+    "uglify-js": "^2.6.1"
+  }
+}
